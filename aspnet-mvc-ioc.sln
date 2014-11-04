@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleLogin", "SimpleLogin\SimpleLogin.csproj", "{EEB9E0ED-76E2-417C-8D01-9D68BBFF9911}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleLogin.Test", "SimpleLogin.Test\SimpleLogin.Test.csproj", "{D6E65935-BA9B-42E6-99E8-304DD2A5776F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEB9E0ED-76E2-417C-8D01-9D68BBFF9911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEB9E0ED-76E2-417C-8D01-9D68BBFF9911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEB9E0ED-76E2-417C-8D01-9D68BBFF9911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEB9E0ED-76E2-417C-8D01-9D68BBFF9911}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6E65935-BA9B-42E6-99E8-304DD2A5776F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6E65935-BA9B-42E6-99E8-304DD2A5776F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6E65935-BA9B-42E6-99E8-304DD2A5776F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6E65935-BA9B-42E6-99E8-304DD2A5776F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,9 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<h1>Choose your login platform</h1>
+<ul>
+    <li>@Html.ActionLink("Facebook", "Index", "Facebook", new { tenant = 1 }, null)</li>
+    <li>@Html.ActionLink("Twitter", "Index", "Twitter", new { tenant = 2 }, null)</li>
+</ul>
