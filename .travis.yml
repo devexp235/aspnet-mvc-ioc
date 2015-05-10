@@ -1,9 +1,11 @@
 ## Travis CI Integration
-
-language: c
+language: csharp
+solution: aspnet-mvc-ioc.sln
 
 install:
-  - sudo apt-get install mono-devel mono-gmcs nunit-console
+  - sudo apt-get install nunit-console
+  - nuget restore aspnet-mvc-ioc.sln
+
 script:
   - xbuild aspnet-mvc-ioc.sln
   - nunit-console lib/SimpleLogin.Test.dll
